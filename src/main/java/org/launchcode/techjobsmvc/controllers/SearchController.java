@@ -18,6 +18,7 @@ public class SearchController {
     @GetMapping(value = "")
     public String search(Model model) {
         model.addAttribute("columns", columnChoices);
+
         return "search";
     }
 
