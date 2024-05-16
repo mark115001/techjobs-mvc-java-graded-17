@@ -17,7 +17,7 @@
     <th:block th:replace="~{fragments :: searchChoices}"></th:block>
 
     <table th:each ="job :${jobs}" class="job-listing">
-        <tbody>
+<!--        <tbody>-->
         <tr>
             <td>ID:</td>
             <td th:text= "${job.id}"></td>
@@ -42,7 +42,7 @@
             <td>Skill:</td>
             <td th:text="${job.coreCompetency}"></td>
         </tr>
-        </tbody>
+<!--        </tbody>-->
     </table>
 
     </div>
